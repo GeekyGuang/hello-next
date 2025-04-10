@@ -9,6 +9,7 @@ function RootLayout({ children }) {
       <body>
         {children}
         <footer>Page rendered at {timestamp}</footer>
+        <SpeedInsights />
       </body>
     </html>
   );
